@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.root {
+    -fx-background-color: linear-gradient(to bottom, red, darkred);
+}
+
+.lable-version {
+	-fx-text-fill: pink;
+}
+
+.label-title {
+	-fx-font-family: 'Press Start 2P';
+    -fx-font-size: 32px;
+    -fx-fill: yellow;
+    -fx-font-weight: bold;
+}
+
+.new-game-button, .continue-button, .setting-button {
+	-fx-text-fill: yellow;
+	-fx-font-family: 'Press Start 2P';
+	-fx-font-size: 20px;
+	-fx-background-color: transparent;
+	-fx-border-color: yellow;
+	-fx-border-width: 2px;
+	-fx-border-radius: 15;
+	-fx-background-radius: 15;
+	-fx-padding: 10;
+}
+
+ 

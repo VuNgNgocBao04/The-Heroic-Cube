@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" styleClass="root" stylesheets="@LoseScene.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LoseSceneController">
+   <children>
+      <Label layoutX="380.0" layoutY="90.0" prefHeight="90.0" prefWidth="120.0" styleClass="lose-label" text=" YOU LOSE" />
+      <Button fx:id="menuButton" layoutX="190.0" layoutY="440.0" mnemonicParsing="false" onAction="#returnMenuScene" prefHeight="90.0" prefWidth="120.0" styleClass="menu-button" text="Menu" />
+      <Button fx:id="againButton" layoutX="570.0" layoutY="440.0" mnemonicParsing="false" onAction="#returnToGameScene" prefHeight="90.0" prefWidth="120.0" styleClass="again-button" text="Again?" />
+   </children>
+</AnchorPane>
